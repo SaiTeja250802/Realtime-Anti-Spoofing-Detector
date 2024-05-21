@@ -9,7 +9,6 @@ confidence = 0.8
 cap = cv2.VideoCapture(0)  # For Webcam
 cap.set(3, 640)
 cap.set(4, 480)
-# cap = cv2.VideoCapture('../Videos/motorbikes.mp4') # For Video
 
 model = YOLO('../models/best.pt')
 #model = YOLO('D:\learn\ML\OpenCV\Anti Spoofing\models\best.pt')
